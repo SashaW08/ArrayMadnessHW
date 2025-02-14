@@ -19,7 +19,7 @@ public class Arrays2D {
     public void method(){
 
         for(int x = 0; x<grid.length; x++) {
-            for (int y = 0; y < grid[0].length; y++) {
+            for (int y = 0; y < grid[x].length; y++) {
                 grid[x][y] = (int) (Math.random()*11);
                 System.out.println(grid[x][y]);
                 t=t+grid[x][y];
