@@ -26,7 +26,7 @@ public class Arrays2D {
             }
         }
 
-        t=t/12;
+        t=t/((grid.length)*(grid[0].length));
         System.out.println("The average number in the 2D array is "+t);
 
     }
