@@ -11,7 +11,7 @@ public class ArrayLists {
     public ArrayLists(){
         System.out.println("Welcome to the wonderful world of array lists!");
 
-        for(int x=1; x<43; x++){
+        for(int x=0; x<43; x++){
             list.add((int)(Math.random()*75)+7);
         }
         printArrayList();
@@ -27,7 +27,7 @@ public class ArrayLists {
     }
 
     public double avgnumber(){
-        int x = 0;
+        double x = 0;
 
         for(int y=0; y<list.size(); y++){
             x=x+list.get(y);
