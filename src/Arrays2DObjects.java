@@ -36,7 +36,6 @@ public class Arrays2DObjects {
             for(int c=0; c<pasta[r].length; c++){
                 x=x+pasta[r][c].getPounds();
             }
-
         }
 
         x=x/(pasta.length*pasta[0].length);
